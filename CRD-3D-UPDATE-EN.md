@@ -11,6 +11,11 @@ This release introduces a complete 3D elevation pipeline: it reads elevation/sup
 - Optional orthometric conversion: ellipsoidal heights can be converted to orthometric heights via the EGM96 geoid model when explicitly enabled.
 - Writer support: auto-patch CommonRoad XML writer to write `<point>` with `<z>`.
 
+Input *.xodr
+![alt text](image-1.png)
+
+Output *.osm
+![alt text](image.png)
 
 ## New Variables and Capabilities
 
